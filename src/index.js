@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { Provider } from 'react-redux';
+import store from './redux/store';
+
 import { ServiceProvider } from './components/service-context';
+import Server from './server';
 
 import App from './components/app';
-
-import store from './redux/store';
-import Server from './server';
 
 const server = new Server();
 
 localStorage.setItem('isLoged', false);
-const data_Autorization = JSON.stringify({login: 'admin', password: 1234});
-localStorage.setItem('autorization', data_Autorization);
+localStorage.setItem('autorization', JSON.stringify({login: 'admin', password: 1234}));
 
 ReactDOM.render(
   <Provider store={store}>
