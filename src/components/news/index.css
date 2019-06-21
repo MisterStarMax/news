@@ -1,0 +1,21 @@
+.list-news{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.item-news{
+  display: flex;
+  flex-flow: column;
+  margin: 0 10px;
+  width: 250px;
+  background-color: grey;
+}
+.item-news span{
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+.item-news p{
+  margin: 10px;
+  margin-top: 5px;
+}

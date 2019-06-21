@@ -1,0 +1,9 @@
+.profile{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile h1{
+  margin: 0;
+}

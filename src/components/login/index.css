@@ -1,0 +1,34 @@
+.login{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.login input{
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+.login button{
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: #0089ff;
+}
+.login button:hover{
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+.login button:focus{
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+.login button:active{
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
